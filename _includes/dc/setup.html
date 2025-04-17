@@ -1,85 +1,38 @@
-{% comment %}
-Astronomy workshops
-{% endcomment %}
+<section><h2 class="section-heading" id="data">Data<a class="anchor" aria-label="anchor" href="#data"></a></h2>
+  <hr class="half-width"><p>You can download all of the data used in this workshop by clicking <a href="https://ndownloader.figshare.com/articles/1314459/versions/9" class="external-link">this
+  download link</a>. The file is 38.4 MB.</p>
+  <p>Clicking the download link will automatically download all of the
+  files to your default download directory as a single compressed
+  (<code>.zip</code>) file. To expand this file, double click the folder
+  icon in your file navigator application (for Macs, this is the Finder
+  application).</p>
+  <p>For a full description of the data used in this workshop see the <a href="data.html">data page</a>.</p>
 
-
-{% if site.curriculum == "dc-astronomy" %}
-
-<p>
-  The setup instructions for the Data Carpentry Astronomy workshops
-  can be found at <a href="https://datacarpentry.org/astronomy-python/index.html#setup">
-    the curriculum site</a>.
-</p>
-
-{% comment %}
-Ecology workshops
-{% endcomment %}
-
-
-{% elsif site.curriculum == "dc-ecology" %}
-
-{% if site.flavor == "r" %}
-<p>
-  The setup instructions for the Data Carpentry Ecology workshops (with R)
-  can be found at <a href="https://datacarpentry.org/ecology-workshop/setup-r-workshop.html">
-    the workshop overview site</a>.
-</p>
-
-{% elsif site.flavor == "python" %}
-<p>
-  The setup instructions for the Data Carpentry Ecology workshops (with Python)
-  can be found at <a href="https://datacarpentry.org/ecology-workshop/setup-python-workshop.html">
-    the workshop overview site</a>.
-</p>
-{% else %}
-{% include warning-flavor.html %}
-{% endif %}
-
-{% comment %}
-Genomics workshops
-{% endcomment %}
-
-{% elsif site.curriculum == "dc-genomics" %}
-<p>The setup instructions for the Data Carpentry Genomics workshops can be found at <a href="https://datacarpentry.org/genomics-workshop/index.html#setup">the workshop overview site</a></p>.
-
-{% comment %}
-Geospatial workshops
-{% endcomment %}
-
-{% elsif site.curriculum == "dc-geospatial" %}
-<p>The setup instructions for the Data Carpentry Geospatial workshop can be found at <a href="https://datacarpentry.org/geospatial-workshop/index.html#setup">the workshop overview site</a>.</p>
-
-{% comment %}
-Image workshops
-{% endcomment %}
-
-{% elsif site.curriculum == "dc-image" %}
-
-<p>The setup instructions for Data Carpentry Image Processing workshops can be found at <a href="https://datacarpentry.org/image-processing/index.html#setup">the curriculum site</a>.</p>
-
-{% comment %}
-Social sciences workshops
-{% endcomment %}
-
-{% elsif site.curriculum == "dc-socsci" %}
-
-{% if site.flavor == "r" %}
-<p>
-  The setup instructions for the Data Carpentry Social Sciences
-  workshops (with R) can be found at <a href="https://datacarpentry.org/socialsci-workshop/setup-r-workshop.html">
-    the workshop overview site</a>.
-</p>
-
-{% elsif site.flavor == "python" %}
-<p>
-  The setup instructions for the Data Carpentry Social Sciences workshops (with Python)
-  can be found at <a href="https://datacarpentry.org/socialsci-workshop/setup-python-workshop.html">
-    the workshop overview site</a>.
-</p>
-{% else %}
-{% include warning-flavor.html %}
-{% endif %}
-
-{% else %}
-{% include warning-curriculum.html %}
-{% endif %}
+  <div class="section level3">
+  <h3 id="openrefine">OpenRefine<a class="anchor" aria-label="anchor" href="#openrefine"></a></h3>
+  <ul><li><p>OpenRefine is a Java program that runs on your local machine (not
+  on the cloud). Although it displays in your browser, no web connection
+  is needed and your data remains local. You need to have a ‘Java Runtime
+  Environment’ (JRE) installed on your computer to run OpenRefine. If you
+  don’t already have one installed and are running Windows, then you can
+  download the “Windows kit with embedded Java” version from the downloads
+  page. You can also download and install Java from <a href="https://java.com" class="external-link">https://java.com</a> by going to the site and
+  clicking “Free Java Download”.</p></li>
+  <li><p>To install OpenRefine, go to their <a href="https://openrefine.org/download.html" class="external-link">download page</a>. From the
+  download page, select either “Windows kit”, “Mac kit”, or “Linux kit” -
+  depending on your operating system - and follow the instructions next to
+  your download link. This lesson has been tested with the recent versions
+  of OpenRefine, at least 3.4.1. <strong>If you are using an older
+  version, it is recommended you upgrade to the latest tested
+  version.</strong></p></li>
+  <li><p>You may get an error message: “OpenRefine.app can’t be opened
+  because it is from an unidentified developer.” If you get this message,
+  open your system preferences and click “Security &amp; Privacy”. You
+  will see a message “OpenRefine.app was blocked from opening because it
+  is from an unidentified developer.” Click “Open Anyway” and “Yes”.
+  OpenRefine should open in your default web browser.</p></li>
+  <li><p>OpenRefine does not support Internet Explorer or Edge. Please use
+  Firefox, Chrome or Safari instead.</p></li>
+  </ul><p>Congratulations! You are now ready for the workshop!</p>
+  </div>
+  </section>
